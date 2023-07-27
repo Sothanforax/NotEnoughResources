@@ -12,6 +12,7 @@ import neresources.compatibility.metallurgy.MetallurgyCompat;
 import neresources.compatibility.minecraft.MinecraftCompat;
 import neresources.compatibility.mobproperties.MobPropertiesCompat;
 import neresources.compatibility.netherores.NetherOresCompat;
+import neresources.compatibility.ntm.NuclearTechModCompat;
 import neresources.compatibility.reika.ElectriCraftCompat;
 import neresources.compatibility.reika.ReactorCraftCompat;
 import neresources.compatibility.reliquary.ReliquaryCompat;
@@ -36,7 +37,8 @@ public enum ModList
     ic2(Names.IC2, IC2Compat.class),
     mobproperties(Names.MOBPROPERTIES, MobPropertiesCompat.class),
     reliquary(Names.RELIQUARY, ReliquaryCompat.class),
-    bluepower(Names.BLUEPOWER, BluePowerCompat.class);
+    bluepower(Names.BLUEPOWER, BluePowerCompat.class),
+    ntm(Names.NTM, NuclearTechModCompat.class);
 
     private String name;
     private Class compat;

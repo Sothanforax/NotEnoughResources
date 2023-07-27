@@ -1,8 +1,8 @@
 package neresources.compatibility.ntm;
 
 import cpw.mods.fml.common.Optional;
-import
-import
+import com.hbm.blocks.ModBlocks;
+import com.hbm.config.WorldConfig;
 import neresources.api.distributions.DistributionCustom;
 import neresources.api.distributions.DistributionSquare;
 import neresources.api.messages.RegisterOreMessage;
